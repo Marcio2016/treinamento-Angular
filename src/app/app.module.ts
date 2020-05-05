@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { InterpolacaoComponent } from './interpolacao/interpolacao.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InterpolacaoComponent
   ],
   imports: [
     BrowserModule
