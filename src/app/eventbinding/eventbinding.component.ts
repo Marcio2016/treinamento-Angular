@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventbindingComponent {
 
-  nome = 'Márcio';
+  nome = '';
 
-  adicionar() {
-    console.log(`Adicionando ${this.nome}`);
+  adicionar(nome: string) {
+    this.nome = nome
 
   }
 
