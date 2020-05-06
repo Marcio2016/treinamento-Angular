@@ -7,6 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterpolacaoComponent {
 
-  nome = ['fullStack Angular SpringRest']
+  nome = 'FullStack Angular SpringRest'
 
 }

@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { InterpolacaoComponent } from './interpolacao/interpolacao.component';
+import { EventbindingComponent } from './eventbinding/eventbinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterpolacaoComponent
+    InterpolacaoComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule
